@@ -1,0 +1,55 @@
+{
+    "hierarchy": [
+        {
+            "id": 0,
+            "childId": 0,
+            "name": "ExplosionHolder",
+            "parent": -1,
+            "materialId": []
+        },
+        {
+            "id": 1,
+            "childId": 0,
+            "name": "Grenade_explosion",
+            "parent": 0,
+            "materialId": [
+                1
+            ]
+        },
+        {
+            "id": 2,
+            "childId": 0,
+            "name": "gren_parts",
+            "parent": 1,
+            "materialId": [
+                0
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "id": 0,
+            "name": "PartsGrenade",
+            "shaderName": "Mobile/Particles/Multiply",
+            "shaderProperties": [
+                {
+                    "type": 3,
+                    "name": "_MainTex",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Explosion",
+            "shaderName": "Mobile/Particles/Alpha Blended",
+            "shaderProperties": [
+                {
+                    "type": 3,
+                    "name": "_MainTex",
+                    "value": "1"
+                }
+            ]
+        }
+    ]
+}

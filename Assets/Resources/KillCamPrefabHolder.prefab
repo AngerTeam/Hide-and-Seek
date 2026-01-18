@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1541667827635715}
+  m_IsPrefabParent: 1
+--- !u!1 &1541667827635715
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4178415685583210}
+  - 114: {fileID: 114834218686967002}
+  m_Layer: 0
+  m_Name: KillCamPrefabHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4178415685583210
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541667827635715}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114834218686967002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541667827635715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51277cbe821f2dc99351d5807e4bc23e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabs:
+  - {fileID: 1905895066567619, guid: 27dfa0225defffa4380f0b04e81204ea, type: 2}
+  - {fileID: 1006632367610343, guid: 225abf5b2ef6ce34e957d04d3b757723, type: 2}
+  - {fileID: 1503571757890016, guid: 88eced396d72f674ab8495082ef47883, type: 2}
+  - {fileID: 1529501373939846, guid: b58dcffcb9d844940afb62e3b276ada1, type: 2}
+  - {fileID: 1237075753042848, guid: cb6ea8736b9982b4ebde181314fb06ab, type: 2}
+  - {fileID: 1481571603888467, guid: c6529cb2a5eb7464789b42583a50eefe, type: 2}
+  isNGUIItems: 0

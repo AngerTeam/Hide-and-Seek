@@ -1,0 +1,89 @@
+{
+    "name": "",
+    "layers": [
+        {
+            "name": "Base Layer",
+            "transitions": [],
+            "states": [
+                {
+                    "id": 0,
+                    "name": "rifle_idle",
+                    "clip": 0,
+                    "transitions": []
+                },
+                {
+                    "id": 1,
+                    "name": "rifle_reload",
+                    "clip": 1,
+                    "transitions": []
+                },
+                {
+                    "id": 2,
+                    "name": "rifle_attack",
+                    "clip": 2,
+                    "transitions": []
+                },
+                {
+                    "id": 3,
+                    "name": "riflefiix_cooldown",
+                    "clip": 3,
+                    "transitions": []
+                }
+            ]
+        }
+    ],
+    "clips": [
+        {
+            "id": 0,
+            "name": "rifle_idle",
+            "duration": 1.4583333730697632,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        },
+        {
+            "id": 1,
+            "name": "rifle_reload",
+            "duration": 3.0,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        },
+        {
+            "id": 2,
+            "name": "rifle_attack",
+            "duration": 0.125,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        },
+        {
+            "id": 3,
+            "name": "riflefiix_cooldown",
+            "duration": 2.0,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        }
+    ]
+}

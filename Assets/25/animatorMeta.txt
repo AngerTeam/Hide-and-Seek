@@ -1,0 +1,57 @@
+{
+    "name": "",
+    "layers": [
+        {
+            "name": "Base Layer",
+            "transitions": [],
+            "states": [
+                {
+                    "id": 0,
+                    "name": "hammer1st_idle",
+                    "clip": 0,
+                    "transitions": []
+                },
+                {
+                    "id": 1,
+                    "name": "hammer_attack",
+                    "clip": 1,
+                    "transitions": []
+                }
+            ]
+        }
+    ],
+    "clips": [
+        {
+            "id": 0,
+            "name": "hammer1st_idle",
+            "duration": 4.791666507720947,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        },
+        {
+            "id": 1,
+            "name": "hammer_attack",
+            "duration": 0.5833334922790527,
+            "events": [
+                {
+                    "id": 0,
+                    "name": "contact",
+                    "moment": 0.2891596853733063
+                }
+            ],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        }
+    ]
+}

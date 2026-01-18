@@ -1,0 +1,57 @@
+{
+    "name": "",
+    "layers": [
+        {
+            "name": "Base Layer",
+            "transitions": [],
+            "states": [
+                {
+                    "id": 0,
+                    "name": "dag_1_idle",
+                    "clip": 0,
+                    "transitions": []
+                },
+                {
+                    "id": 1,
+                    "name": "dag_1_attack",
+                    "clip": 1,
+                    "transitions": []
+                }
+            ]
+        }
+    ],
+    "clips": [
+        {
+            "id": 0,
+            "name": "dag_1_idle",
+            "duration": 3.9166669845581056,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        },
+        {
+            "id": 1,
+            "name": "dag_1_attack",
+            "duration": 0.5833334922790527,
+            "events": [
+                {
+                    "id": 0,
+                    "name": "contact",
+                    "moment": 0.32258814573287966
+                }
+            ],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        }
+    ]
+}

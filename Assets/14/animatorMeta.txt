@@ -1,0 +1,81 @@
+{
+    "name": "",
+    "layers": [
+        {
+            "name": "Base Layer",
+            "transitions": [],
+            "states": [
+                {
+                    "id": 0,
+                    "name": "pick1st_idle",
+                    "clip": 0,
+                    "transitions": []
+                },
+                {
+                    "id": 1,
+                    "name": "pick_attack",
+                    "clip": 1,
+                    "transitions": []
+                },
+                {
+                    "id": 2,
+                    "name": "pick_dig",
+                    "clip": 2,
+                    "transitions": []
+                }
+            ]
+        }
+    ],
+    "clips": [
+        {
+            "id": 0,
+            "name": "pick1st_idle",
+            "duration": 4.916666507720947,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        },
+        {
+            "id": 1,
+            "name": "pick_attack",
+            "duration": 0.7500004768371582,
+            "events": [
+                {
+                    "id": 0,
+                    "name": "contact",
+                    "moment": 0.3954153060913086
+                },
+                {
+                    "id": 1,
+                    "name": "contact",
+                    "moment": 0.4104585647583008
+                }
+            ],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        },
+        {
+            "id": 2,
+            "name": "pick_dig",
+            "duration": 0.7500004768371582,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        }
+    ]
+}

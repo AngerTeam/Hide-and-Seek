@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1768031402298586}
+  m_IsPrefabParent: 1
+--- !u!1 &1768031402298586
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4060120347708027}
+  - 114: {fileID: 114886002768103833}
+  m_Layer: 0
+  m_Name: CraftyVoxelEngineRuntimePrefabsHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4060120347708027
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1768031402298586}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.41927817, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114886002768103833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1768031402298586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51277cbe821f2dc99351d5807e4bc23e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabs:
+  - {fileID: 1518463320444263, guid: f31ad24ac0584054c9d7caf1a5520044, type: 2}
+  - {fileID: 1273295488206452, guid: 0e1d389d46819db4c8657613a4ac4eda, type: 2}
+  - {fileID: 1998297948806021, guid: b352eda4cf063674ebc8409adaf51be2, type: 2}
+  - {fileID: 1640011874671481, guid: c67bffd180833e340b040383201addb1, type: 2}
+  - {fileID: 1275550865345568, guid: d1d06030beada3f4db85c963022e571c, type: 2}
+  - {fileID: 1949213646710641, guid: e3e7e54412e193647a8727099d818d5b, type: 2}
+  - {fileID: 1481960229308354, guid: 323ea1dc0684943438e8659633b0189b, type: 2}
+  - {fileID: 1350786570700114, guid: 8782bf7884865f24bb2849738d595bdb, type: 2}
+  isNGUIItems: 0

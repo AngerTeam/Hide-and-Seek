@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1229080093630961}
+  m_IsPrefabParent: 1
+--- !u!1 &1229080093630961
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4129253381666598}
+  - 114: {fileID: 114642941571746711}
+  m_Layer: 0
+  m_Name: SplashScreenPrefabHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4129253381666598
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229080093630961}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114642941571746711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229080093630961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51277cbe821f2dc99351d5807e4bc23e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  prefabs:
+  - {fileID: 1162007303133588, guid: cbaf0d9080608a24b830e9a830b77482, type: 2}
+  - {fileID: 1772084635260226, guid: 372c2ef94faa3e94cb5d7eda8eb49995, type: 2}
+  - {fileID: 0}
+  - {fileID: 1256506796684429, guid: ae3bce135b59d4b4e9eaa88a39f56898, type: 2}
+  - {fileID: 1782266953742715, guid: 5100ca154fce6fb4aa75f1cfabce7fb3, type: 2}
+  isNGUIItems: 1

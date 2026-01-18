@@ -1,0 +1,186 @@
+{
+    "hierarchy": [
+        {
+            "id": 0,
+            "childId": 0,
+            "name": "Rek_chest",
+            "parent": -1,
+            "materialId": []
+        },
+        {
+            "id": 1,
+            "childId": 0,
+            "name": "Armature",
+            "parent": 0,
+            "materialId": []
+        },
+        {
+            "id": 2,
+            "childId": 0,
+            "name": "root",
+            "parent": 1,
+            "materialId": []
+        },
+        {
+            "id": 3,
+            "childId": 0,
+            "name": "chest_top",
+            "parent": 2,
+            "materialId": []
+        },
+        {
+            "id": 4,
+            "childId": 1,
+            "name": "partHolder",
+            "parent": 2,
+            "materialId": []
+        },
+        {
+            "id": 5,
+            "childId": 0,
+            "name": "glow_blue",
+            "parent": 4,
+            "materialId": [
+                0
+            ]
+        },
+        {
+            "id": 6,
+            "childId": 1,
+            "name": "flash_blue",
+            "parent": 4,
+            "materialId": [
+                1
+            ]
+        },
+        {
+            "id": 7,
+            "childId": 1,
+            "name": "NewRek",
+            "parent": 0,
+            "materialId": [
+                2
+            ]
+        },
+        {
+            "id": 8,
+            "childId": 2,
+            "name": "Spotlight",
+            "parent": 0,
+            "materialId": []
+        }
+    ],
+    "materials": [
+        {
+            "id": 0,
+            "name": "greenpoof",
+            "shaderName": "Mobile/Particles/Additive",
+            "shaderProperties": [
+                {
+                    "type": 3,
+                    "name": "_MainTex",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Default-Particle",
+            "shaderName": "Particles/Alpha Blended Premultiply",
+            "shaderProperties": [
+                {
+                    "type": 3,
+                    "name": "_MainTex",
+                    "value": "1"
+                },
+                {
+                    "type": 2,
+                    "name": "_InvFade",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Material_000",
+            "shaderName": "Standard",
+            "shaderProperties": [
+                {
+                    "type": 0,
+                    "name": "_Color",
+                    "value": "FFFFFFFF"
+                },
+                {
+                    "type": 3,
+                    "name": "_MainTex",
+                    "value": "2"
+                },
+                {
+                    "type": 2,
+                    "name": "_Cutoff",
+                    "value": "0.5"
+                },
+                {
+                    "type": 2,
+                    "name": "_Glossiness",
+                    "value": "0.5"
+                },
+                {
+                    "type": 2,
+                    "name": "_GlossMapScale",
+                    "value": "1"
+                },
+                {
+                    "type": 1,
+                    "name": "_SmoothnessTextureChannel",
+                    "value": "1"
+                },
+                {
+                    "type": 1,
+                    "name": "_SpecularHighlights",
+                    "value": "1"
+                },
+                {
+                    "type": 1,
+                    "name": "_GlossyReflections",
+                    "value": "1"
+                },
+                {
+                    "type": 1,
+                    "name": "_BumpScale",
+                    "value": "1"
+                },
+                {
+                    "type": 2,
+                    "name": "_Parallax",
+                    "value": "0.02"
+                },
+                {
+                    "type": 2,
+                    "name": "_OcclusionStrength",
+                    "value": "1"
+                },
+                {
+                    "type": 0,
+                    "name": "_EmissionColor",
+                    "value": "000000FF"
+                },
+                {
+                    "type": 1,
+                    "name": "_DetailNormalMapScale",
+                    "value": "1"
+                },
+                {
+                    "type": 1,
+                    "name": "_SrcBlend",
+                    "value": "1"
+                },
+                {
+                    "type": 1,
+                    "name": "_ZWrite",
+                    "value": "1"
+                }
+            ]
+        }
+    ]
+}

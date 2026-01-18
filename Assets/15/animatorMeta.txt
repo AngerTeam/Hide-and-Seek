@@ -1,0 +1,86 @@
+{
+    "name": "",
+    "layers": [
+        {
+            "name": "Base Layer",
+            "transitions": [],
+            "states": [
+                {
+                    "id": 0,
+                    "name": "pick_1st_idle",
+                    "clip": 0,
+                    "transitions": []
+                },
+                {
+                    "id": 1,
+                    "name": "pick_1st_dig",
+                    "clip": 1,
+                    "transitions": []
+                },
+                {
+                    "id": 2,
+                    "name": "pick_1st_attack",
+                    "clip": 2,
+                    "transitions": []
+                }
+            ]
+        }
+    ],
+    "clips": [
+        {
+            "id": 0,
+            "name": "pick_1st_idle",
+            "duration": 4.916666507720947,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        },
+        {
+            "id": 1,
+            "name": "pick_1st_dig",
+            "duration": 0.6666669845581055,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        },
+        {
+            "id": 2,
+            "name": "pick_1st_attack",
+            "duration": 0.6666669845581055,
+            "events": [
+                {
+                    "id": 0,
+                    "name": "contact",
+                    "moment": 0.0
+                },
+                {
+                    "id": 1,
+                    "name": "NewEvent",
+                    "moment": 0.0
+                },
+                {
+                    "id": 2,
+                    "name": "contact",
+                    "moment": 0.29608428478240969
+                }
+            ],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        }
+    ]
+}

@@ -1,0 +1,258 @@
+{
+    "hierarchy": [
+        {
+            "id": 0,
+            "childId": 0,
+            "name": "Nega_Cube",
+            "parent": -1,
+            "materialId": []
+        },
+        {
+            "id": 1,
+            "childId": 0,
+            "name": "Armature",
+            "parent": 0,
+            "materialId": []
+        },
+        {
+            "id": 2,
+            "childId": 0,
+            "name": "root",
+            "parent": 1,
+            "materialId": []
+        },
+        {
+            "id": 3,
+            "childId": 0,
+            "name": "head",
+            "parent": 2,
+            "materialId": []
+        },
+        {
+            "id": 4,
+            "childId": 0,
+            "name": "brow_L",
+            "parent": 3,
+            "materialId": []
+        },
+        {
+            "id": 5,
+            "childId": 1,
+            "name": "brow_R",
+            "parent": 3,
+            "materialId": []
+        },
+        {
+            "id": 6,
+            "childId": 2,
+            "name": "eye_L",
+            "parent": 3,
+            "materialId": []
+        },
+        {
+            "id": 7,
+            "childId": 3,
+            "name": "eye_R",
+            "parent": 3,
+            "materialId": []
+        },
+        {
+            "id": 8,
+            "childId": 1,
+            "name": "weapon_bone",
+            "parent": 2,
+            "materialId": []
+        },
+        {
+            "id": 9,
+            "childId": 0,
+            "name": "rightWeaponAnchor",
+            "parent": 8,
+            "materialId": []
+        },
+        {
+            "id": 10,
+            "childId": 2,
+            "name": "SpawnParticle",
+            "parent": 2,
+            "materialId": [
+                1
+            ]
+        },
+        {
+            "id": 11,
+            "childId": 0,
+            "name": "sizePart",
+            "parent": 10,
+            "materialId": [
+                0
+            ]
+        },
+        {
+            "id": 12,
+            "childId": 3,
+            "name": "parts",
+            "parent": 2,
+            "materialId": []
+        },
+        {
+            "id": 13,
+            "childId": 0,
+            "name": "fire_main",
+            "parent": 12,
+            "materialId": [
+                2
+            ]
+        },
+        {
+            "id": 14,
+            "childId": 1,
+            "name": "fire_1",
+            "parent": 12,
+            "materialId": [
+                3
+            ]
+        },
+        {
+            "id": 15,
+            "childId": 2,
+            "name": "coals",
+            "parent": 12,
+            "materialId": [
+                4
+            ]
+        },
+        {
+            "id": 16,
+            "childId": 3,
+            "name": "emit",
+            "parent": 12,
+            "materialId": [
+                0
+            ]
+        },
+        {
+            "id": 17,
+            "childId": 1,
+            "name": "NegaCube_default",
+            "parent": 0,
+            "materialId": [
+                5
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "id": 0,
+            "name": "NegaVoxel_default 1",
+            "shaderName": "Particles/Alpha Blended",
+            "shaderProperties": [
+                {
+                    "type": 0,
+                    "name": "_TintColor",
+                    "value": "7F7F7F7F"
+                },
+                {
+                    "type": 3,
+                    "name": "_MainTex",
+                    "value": "0"
+                },
+                {
+                    "type": 2,
+                    "name": "_InvFade",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "SmokeOldGun",
+            "shaderName": "Mobile/Particles/Additive",
+            "shaderProperties": [
+                {
+                    "type": 3,
+                    "name": "_MainTex",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "fire",
+            "shaderName": "Particles/Alpha Blended",
+            "shaderProperties": [
+                {
+                    "type": 0,
+                    "name": "_TintColor",
+                    "value": "7F7F7F7F"
+                },
+                {
+                    "type": 3,
+                    "name": "_MainTex",
+                    "value": "2"
+                },
+                {
+                    "type": 2,
+                    "name": "_InvFade",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "fire_iskra",
+            "shaderName": "Particles/Alpha Blended",
+            "shaderProperties": [
+                {
+                    "type": 0,
+                    "name": "_TintColor",
+                    "value": "7F7F7F7F"
+                },
+                {
+                    "type": 3,
+                    "name": "_MainTex",
+                    "value": "2"
+                },
+                {
+                    "type": 2,
+                    "name": "_InvFade",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "coal",
+            "shaderName": "Particles/Alpha Blended",
+            "shaderProperties": [
+                {
+                    "type": 0,
+                    "name": "_TintColor",
+                    "value": "7F7F7F7F"
+                },
+                {
+                    "type": 3,
+                    "name": "_MainTex",
+                    "value": "3"
+                },
+                {
+                    "type": 2,
+                    "name": "_InvFade",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "NegaVoxel_default",
+            "shaderName": "Mobile/Diffuse",
+            "shaderProperties": [
+                {
+                    "type": 3,
+                    "name": "_MainTex",
+                    "value": "0"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+using System;
+
+[Serializable]
+public class FlareOcclusion
+{
+	public enum CullingState
+	{
+		Visible = 0,
+		CullCountDown = 1,
+		CanCull = 2,
+		Culled = 3,
+		NeverCull = 4
+	}
+
+	public bool occluded;
+
+	public float occlusionScale = 1f;
+
+	public CullingState _CullingState;
+
+	public float CullTimer;
+
+	public float cullFader = 1f;
+}

@@ -1,0 +1,65 @@
+{
+    "hierarchy": [
+        {
+            "id": 0,
+            "childId": 0,
+            "name": "Lightning_New",
+            "parent": -1,
+            "materialId": []
+        },
+        {
+            "id": 1,
+            "childId": 0,
+            "name": "Light",
+            "parent": 0,
+            "materialId": [
+                0
+            ]
+        },
+        {
+            "id": 2,
+            "childId": 1,
+            "name": "singleLight",
+            "parent": 0,
+            "materialId": [
+                1
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "id": 0,
+            "name": "BeamBlue",
+            "shaderName": "Particles/Additive",
+            "shaderProperties": [
+                {
+                    "type": 0,
+                    "name": "_TintColor",
+                    "value": "0060FF7F"
+                },
+                {
+                    "type": 3,
+                    "name": "_MainTex",
+                    "value": "0"
+                },
+                {
+                    "type": 2,
+                    "name": "_InvFade",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Lighting_bullet",
+            "shaderName": "Mobile/Particles/Additive",
+            "shaderProperties": [
+                {
+                    "type": 3,
+                    "name": "_MainTex",
+                    "value": "1"
+                }
+            ]
+        }
+    ]
+}

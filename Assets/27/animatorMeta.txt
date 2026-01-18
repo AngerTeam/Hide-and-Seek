@@ -1,0 +1,89 @@
+{
+    "name": "",
+    "layers": [
+        {
+            "name": "Base Layer",
+            "transitions": [],
+            "states": [
+                {
+                    "id": 0,
+                    "name": "grenade_idle",
+                    "clip": 0,
+                    "transitions": []
+                },
+                {
+                    "id": 1,
+                    "name": "grenade_reload",
+                    "clip": 1,
+                    "transitions": []
+                },
+                {
+                    "id": 2,
+                    "name": "grenade_cooldown",
+                    "clip": 2,
+                    "transitions": []
+                },
+                {
+                    "id": 3,
+                    "name": "grenade_attack",
+                    "clip": 3,
+                    "transitions": []
+                }
+            ]
+        }
+    ],
+    "clips": [
+        {
+            "id": 0,
+            "name": "grenade_idle",
+            "duration": 2.875,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        },
+        {
+            "id": 1,
+            "name": "grenade_reload",
+            "duration": 0.7083333134651184,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        },
+        {
+            "id": 2,
+            "name": "grenade_cooldown",
+            "duration": 0.5416666865348816,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        },
+        {
+            "id": 3,
+            "name": "grenade_attack",
+            "duration": 0.2916666865348816,
+            "events": [],
+            "clip": {
+                "instanceID": 0
+            },
+            "dynamicStateA": "",
+            "dynamicStateB": "",
+            "layer": 0,
+            "a": false
+        }
+    ]
+}
