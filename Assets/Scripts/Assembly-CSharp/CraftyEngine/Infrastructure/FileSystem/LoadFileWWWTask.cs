@@ -142,7 +142,7 @@ namespace CraftyEngine.Infrastructure.FileSystem
 						base.File.loadedText = www.text;
 						break;
 					case FileType.Audio:
-						base.File.audioClip = www.audioClip;
+						base.File.audioClip = www.GetAudioClip();
 						break;
 					default:
 						Log.Error("Unsupported file type {0}", base.File.Type);

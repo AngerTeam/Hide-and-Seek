@@ -409,7 +409,7 @@ namespace HideAndSeekGame
 		private void LoadPermanentData()
 		{
 			DataStorage.version = Resources.Load<TextAsset>("version").text;
-			DataStorage.bundleIdentifier = Application.bundleIdentifier;
+			DataStorage.bundleIdentifier = Application.identifier;
 			int layer = 1;
 			HttpOnlineManager.InitHttp(layer);
 			HttpTopManager.InitAuth(layer);

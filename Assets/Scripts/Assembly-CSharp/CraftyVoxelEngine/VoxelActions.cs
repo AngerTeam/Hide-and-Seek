@@ -88,7 +88,7 @@ namespace CraftyVoxelEngine
 			return AddMessage(callback);
 		}
 
-		public int SetVoxel(VoxelKey globalKey, ushort value, byte rotation = 0, bool useHit = false, [Optional] Vector3 point, byte side = 0, bool isPlayer = true, Action<DataSerializable> callback = null)
+		public int SetVoxel(VoxelKey globalKey, ushort value, byte rotation = 0, bool useHit = false, Vector3 point = default(Vector3), byte side = 0, bool isPlayer = true, Action<DataSerializable> callback = null)
 		{
 			VoxelActionsBase.buffer_.Reset();
 			setVoxel_.globalKey = globalKey;

@@ -151,7 +151,7 @@ namespace CraftyEngine.Infrastructure.FileSystem
 					{
 						base.File.loadedAssetBundle = assetBundle;
 					}
-					base.File.audioClip = www_.audioClip;
+					base.File.audioClip = www_.GetAudioClip();
 				}
 				else
 				{
