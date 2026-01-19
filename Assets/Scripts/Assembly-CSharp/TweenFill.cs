@@ -1,77 +1,73 @@
+//-------------------------------------------------
+//            NGUI: Next-Gen UI kit
+// Copyright © 2011-2017 Tasharen Entertainment Inc
+//-------------------------------------------------
+
 using UnityEngine;
 
-[AddComponentMenu("NGUI/Tween/Tween Fill")]
+/// <summary>
+/// Tween the sprite's fill.
+/// </summary>
+
 [RequireComponent(typeof(UIBasicSprite))]
+[AddComponentMenu("NGUI/Tween/Tween Fill")]
 public class TweenFill : UITweener
 {
-	[Range(0f, 1f)]
-	public float from = 1f;
+	[Range(0f, 1f)] public float from = 1f;
+	[Range(0f, 1f)] public float to = 1f;
 
-	[Range(0f, 1f)]
-	public float to = 1f;
+	bool mCached = false;
+	UIBasicSprite mSprite;
 
-	private bool mCached;
-
-	private UIBasicSprite mSprite;
-
-	public float value
-	{
-		get
-		{
-			if (!mCached)
-			{
-				Cache();
-			}
-			if (mSprite != null)
-			{
-				return mSprite.fillAmount;
-			}
-			return 0f;
-		}
-		set
-		{
-			if (!mCached)
-			{
-				Cache();
-			}
-			if (mSprite != null)
-			{
-				mSprite.fillAmount = value;
-			}
-		}
-	}
-
-	private void Cache()
+	void Cache ()
 	{
 		mCached = true;
 		mSprite = GetComponent<UISprite>();
 	}
 
-	protected override void OnUpdate(float factor, bool isFinished)
+	/// <summary>
+	/// Tween's current value.
+	/// </summary>
+
+	public float value
 	{
-		value = Mathf.Lerp(from, to, factor);
+		get
+		{
+			if (!mCached) Cache();
+			if (mSprite != null) return mSprite.fillAmount;
+			return 0f;
+		}
+		set
+		{
+			if (!mCached) Cache();
+			if (mSprite != null) mSprite.fillAmount = value;
+		}
 	}
 
-	public static TweenFill Begin(GameObject go, float duration, float fill)
+	/// <summary>
+	/// Tween the value.
+	/// </summary>
+
+	protected override void OnUpdate (float factor, bool isFinished) { value = Mathf.Lerp(from, to, factor); }
+
+	/// <summary>
+	/// Start the tweening operation.
+	/// </summary>
+
+	static public TweenFill Begin (GameObject go, float duration, float fill)
 	{
-		TweenFill tweenFill = UITweener.Begin<TweenFill>(go, duration);
-		tweenFill.from = tweenFill.value;
-		tweenFill.to = fill;
+		TweenFill comp = UITweener.Begin<TweenFill>(go, duration);
+		comp.from = comp.value;
+		comp.to = fill;
+
 		if (duration <= 0f)
 		{
-			tweenFill.Sample(1f, true);
-			tweenFill.enabled = false;
+			comp.Sample(1f, true);
+			comp.enabled = false;
 		}
-		return tweenFill;
+		return comp;
 	}
 
-	public override void SetStartToCurrentValue()
-	{
-		from = value;
-	}
-
-	public override void SetEndToCurrentValue()
-	{
-		to = value;
-	}
+	public override void SetStartToCurrentValue () { from = value; }
+	public override void SetEndToCurrentValue () { to = value; }
 }

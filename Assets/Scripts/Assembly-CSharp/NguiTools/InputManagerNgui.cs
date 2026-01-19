@@ -68,7 +68,7 @@ namespace NguiTools
 							InputInstance inputInstance = model.InputIntances[i];
 							if (!inputInstance.IsMouse && inputInstance.Index < Input.touchCount)
 							{
-								UICamera.MouseOrTouch touch = UICamera.GetTouch(inputInstance.Index);
+								UICamera.MouseOrTouch touch = UICamera.GetTouch(inputInstance.Index, false);
 								gameObject = ((touch != null) ? touch.current : null);
 								if (!CheckNull(gameObject))
 								{
