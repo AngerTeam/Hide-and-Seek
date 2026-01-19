@@ -9,19 +9,19 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1676879748993035}
+  m_RootGameObject: {fileID: 1347904865795545}
   m_IsPrefabParent: 1
---- !u!1 &1676879748993035
+--- !u!1 &1347904865795545
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4882176550284199}
-  - 114: {fileID: 114936692562463690}
-  - 65: {fileID: 65627951193790269}
-  - 114: {fileID: 114855596501294059}
+  - 4: {fileID: 4862264141596013}
+  - 114: {fileID: 114216379571467298}
+  - 65: {fileID: 65834436527289545}
+  - 114: {fileID: 114446688068333602}
   m_Layer: 5
   m_Name: UIInventoryTrashButton
   m_TagString: Untagged
@@ -29,26 +29,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4882176550284199
+--- !u!4 &4862264141596013
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1676879748993035}
+  m_GameObject: {fileID: 1347904865795545}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 4541727600506672}
+  - {fileID: 4151563345668735}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114936692562463690
+--- !u!114 &114216379571467298
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1676879748993035}
+  m_GameObject: {fileID: 1347904865795545}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
@@ -93,33 +93,33 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 114568271153408558, guid: 95be4ed1de56a034f9a74ab2f889d98e, type: 2}
+  mAtlas: {fileID: 114047731862768741, guid: 1f4e5689cf69d6946be3adcd591c5e06, type: 2}
   mSpriteName: ButtonRedDark
   mFillCenter: 1
---- !u!65 &65627951193790269
+--- !u!65 &65834436527289545
 BoxCollider:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1676879748993035}
+  m_GameObject: {fileID: 1347904865795545}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   m_Size: {x: 387, y: 118, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114855596501294059
+--- !u!114 &114446688068333602
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1676879748993035}
+  m_GameObject: {fileID: 1347904865795545}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac0b1b7aa66d2b9ce50316207a8bddcf, type: 3}
   m_Name:
   m_EditorClassIdentifier:
-  widget: {fileID: 114936692562463690}
+  widget: {fileID: 114216379571467298}
   selectionBorderA: {fileID: 0}
   selectionBorderB: {fileID: 0}
   durabilitySlider: {fileID: 0}
@@ -131,16 +131,16 @@ MonoBehaviour:
   bindKeyLabel: {fileID: 0}
   background: {fileID: 0}
   backgroundBorder: {fileID: 0}
-  title: {fileID: 114170300972909979}
---- !u!1 &1626894635572117
+  title: {fileID: 114952958690915591}
+--- !u!1 &1017429468710312
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4541727600506672}
-  - 114: {fileID: 114170300972909979}
+  - 4: {fileID: 4151563345668735}
+  - 114: {fileID: 114952958690915591}
   m_Layer: 5
   m_Name: Label
   m_TagString: Untagged
@@ -148,44 +148,44 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4541727600506672
+--- !u!4 &4151563345668735
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1626894635572117}
+  m_GameObject: {fileID: 1017429468710312}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
   m_Children: []
-  m_Father: {fileID: 4882176550284199}
+  m_Father: {fileID: 4862264141596013}
   m_RootOrder: 0
---- !u!114 &114170300972909979
+--- !u!114 &114952958690915591
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1626894635572117}
+  m_GameObject: {fileID: 1017429468710312}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   leftAnchor:
-    target: {fileID: 4882176550284199}
+    target: {fileID: 4862264141596013}
     relative: 0
     absolute: 20
   rightAnchor:
-    target: {fileID: 4882176550284199}
+    target: {fileID: 4862264141596013}
     relative: 1
     absolute: -20
   bottomAnchor:
-    target: {fileID: 4882176550284199}
+    target: {fileID: 4862264141596013}
     relative: 0
     absolute: 20
   topAnchor:
-    target: {fileID: 4882176550284199}
+    target: {fileID: 4862264141596013}
     relative: 1
     absolute: -5
   updateAnchors: 1
@@ -199,7 +199,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 3.7311828
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 20a22721e86bcdc448ecfd5dd28ddbc6, type: 3}
+  mTrueTypeFont: {fileID: 12800000, guid: 88fd832b07d5bca4bb65c3633abf00fb, type: 3}
   mFont: {fileID: 0}
   mText: "Перетащите сюда\nчто бы выбросить"
   mFontSize: 60

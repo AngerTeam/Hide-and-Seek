@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1726429885445700}
+  m_RootGameObject: {fileID: 1658578758802103}
   m_IsPrefabParent: 1
---- !u!1 &1726429885445700
+--- !u!1 &1658578758802103
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4415321834584743}
-  - 114: {fileID: 114886883206488334}
-  - 114: {fileID: 114589125809963682}
+  - 4: {fileID: 4273049190849437}
+  - 114: {fileID: 114387120390066482}
+  - 114: {fileID: 114078997847438830}
   m_Layer: 5
   m_Name: UIAimScope
   m_TagString: Untagged
@@ -28,39 +28,39 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4415321834584743
+--- !u!4 &4273049190849437
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726429885445700}
+  m_GameObject: {fileID: 1658578758802103}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 4309590249286732}
+  - {fileID: 4259822097027885}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114886883206488334
+--- !u!114 &114387120390066482
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726429885445700}
+  m_GameObject: {fileID: 1658578758802103}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecc8e998bbf92368ccafe2b4da14f803, type: 3}
   m_Name:
   m_EditorClassIdentifier:
-  panel: {fileID: 114589125809963682}
-  texture: {fileID: 114978741774334426}
---- !u!114 &114589125809963682
+  panel: {fileID: 114078997847438830}
+  texture: {fileID: 114824374028272919}
+--- !u!114 &114078997847438830
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1726429885445700}
+  m_GameObject: {fileID: 1658578758802103}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e7c3bff608434c7f74859fbc7af5fe1, type: 3}
@@ -101,15 +101,15 @@ MonoBehaviour:
   mSortingOrder: 0
   mSortingLayerName:
   mClipOffset: {x: 0, y: 0}
---- !u!1 &1106433478890576
+--- !u!1 &1768707204925757
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4309590249286732}
-  - 114: {fileID: 114978741774334426}
+  - 4: {fileID: 4259822097027885}
+  - 114: {fileID: 114824374028272919}
   m_Layer: 5
   m_Name: Texture
   m_TagString: Untagged
@@ -117,44 +117,44 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4309590249286732
+--- !u!4 &4259822097027885
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1106433478890576}
+  m_GameObject: {fileID: 1768707204925757}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
   m_Children: []
-  m_Father: {fileID: 4415321834584743}
+  m_Father: {fileID: 4273049190849437}
   m_RootOrder: 0
---- !u!114 &114978741774334426
+--- !u!114 &114824374028272919
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1106433478890576}
+  m_GameObject: {fileID: 1768707204925757}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b966813a45a3ddd7afe0709044cd4784, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   leftAnchor:
-    target: {fileID: 4415321834584743}
+    target: {fileID: 4273049190849437}
     relative: 0
     absolute: 0
   rightAnchor:
-    target: {fileID: 4415321834584743}
+    target: {fileID: 4273049190849437}
     relative: 1
     absolute: 0
   bottomAnchor:
-    target: {fileID: 4415321834584743}
+    target: {fileID: 4273049190849437}
     relative: 0
     absolute: 0
   topAnchor:
-    target: {fileID: 4415321834584743}
+    target: {fileID: 4273049190849437}
     relative: 1
     absolute: 0
   updateAnchors: 1
@@ -186,8 +186,8 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
-  mTexture: {fileID: 2800000, guid: 14bcbefa5d838094c913a384abe0b8b7, type: 3}
+  mTexture: {fileID: 2800000, guid: a37b11345301fc74ba47ea61e44838a0, type: 3}
   mMat: {fileID: 0}
-  mShader: {fileID: 4800000, guid: ddc63cf7510399045a614e053900169a, type: 3}
+  mShader: {fileID: 4800000, guid: 17cc80fa7d1180945b630256511e63eb, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0

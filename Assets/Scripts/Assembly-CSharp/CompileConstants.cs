@@ -10,7 +10,12 @@ public class CompileConstants
 
 	public const string PLATFORM_LINUX = "LINUX";
 
-	public static bool EDITOR = false;
+	public static bool EDITOR =
+#if UNITY_EDITOR
+	true;
+#else
+	false;
+#endif
 
 	public static bool ANDROID = true;
 

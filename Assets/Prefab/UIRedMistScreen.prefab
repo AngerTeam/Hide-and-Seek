@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1481992050222659}
+  m_RootGameObject: {fileID: 1429069731101429}
   m_IsPrefabParent: 1
---- !u!1 &1481992050222659
+--- !u!1 &1429069731101429
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4145738097134974}
-  - 114: {fileID: 114192416745016105}
-  - 114: {fileID: 114558626011045087}
+  - 4: {fileID: 4443444355950648}
+  - 114: {fileID: 114966357366378595}
+  - 114: {fileID: 114926246230054505}
   m_Layer: 5
   m_Name: UIRedMistScreen
   m_TagString: Untagged
@@ -28,26 +28,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4145738097134974
+--- !u!4 &4443444355950648
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1481992050222659}
+  m_GameObject: {fileID: 1429069731101429}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
   m_Children:
-  - {fileID: 4304954565001160}
+  - {fileID: 4263101475341717}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114192416745016105
+--- !u!114 &114966357366378595
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1481992050222659}
+  m_GameObject: {fileID: 1429069731101429}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e7c3bff608434c7f74859fbc7af5fe1, type: 3}
@@ -88,27 +88,27 @@ MonoBehaviour:
   mSortingOrder: 0
   mSortingLayerName:
   mClipOffset: {x: 0, y: 0}
---- !u!114 &114558626011045087
+--- !u!114 &114926246230054505
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1481992050222659}
+  m_GameObject: {fileID: 1429069731101429}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e520df4100dbffe6d27615e5f1add3d3, type: 3}
   m_Name:
   m_EditorClassIdentifier:
-  widget: {fileID: 114176132632667498}
---- !u!1 &1927434132828146
+  widget: {fileID: 114593252724437760}
+--- !u!1 &1940163073052011
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4304954565001160}
-  - 114: {fileID: 114176132632667498}
+  - 4: {fileID: 4263101475341717}
+  - 114: {fileID: 114593252724437760}
   m_Layer: 5
   m_Name: UIRedMistWidget
   m_TagString: Untagged
@@ -116,26 +116,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4304954565001160
+--- !u!4 &4263101475341717
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1927434132828146}
+  m_GameObject: {fileID: 1940163073052011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
   m_Children:
-  - {fileID: 4438919333621587}
-  m_Father: {fileID: 4145738097134974}
+  - {fileID: 4143769717046002}
+  m_Father: {fileID: 4443444355950648}
   m_RootOrder: 0
---- !u!114 &114176132632667498
+--- !u!114 &114593252724437760
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1927434132828146}
+  m_GameObject: {fileID: 1940163073052011}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0110146dbab87410eb62d6f3e8233d7d, type: 3}
@@ -167,15 +167,15 @@ MonoBehaviour:
   hideIfOffScreen: 0
   keepAspectRatio: 0
   aspectRatio: 1.9311043
---- !u!1 &1659720015744029
+--- !u!1 &1039802402488261
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4438919333621587}
-  - 114: {fileID: 114377957066080593}
+  - 4: {fileID: 4143769717046002}
+  - 114: {fileID: 114122660231049547}
   m_Layer: 5
   m_Name: sprite
   m_TagString: Untagged
@@ -183,44 +183,44 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4438919333621587
+--- !u!4 &4143769717046002
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1659720015744029}
+  m_GameObject: {fileID: 1039802402488261}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 953, y: 494, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 4304954565001160}
+  m_Father: {fileID: 4263101475341717}
   m_RootOrder: 0
---- !u!114 &114377957066080593
+--- !u!114 &114122660231049547
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1659720015744029}
+  m_GameObject: {fileID: 1039802402488261}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0325460231a819450b692114b788c16e, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   leftAnchor:
-    target: {fileID: 4304954565001160}
+    target: {fileID: 4263101475341717}
     relative: 0
     absolute: 0
   rightAnchor:
-    target: {fileID: 4304954565001160}
+    target: {fileID: 4263101475341717}
     relative: 1
     absolute: 0
   bottomAnchor:
-    target: {fileID: 4304954565001160}
+    target: {fileID: 4263101475341717}
     relative: 0
     absolute: 0
   topAnchor:
-    target: {fileID: 4304954565001160}
+    target: {fileID: 4263101475341717}
     relative: 1
     absolute: 0
   updateAnchors: 1
@@ -246,9 +246,9 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: 19b50d30c5725494f88947a98d641ec3, type: 2}
+  mSprite: {fileID: 21300000, guid: e646de0b466a2674aa5e257abee37ecf, type: 2}
   mMat: {fileID: 0}
-  mShader: {fileID: 4800000, guid: ddc63cf7510399045a614e053900169a, type: 3}
+  mShader: {fileID: 4800000, guid: 17cc80fa7d1180945b630256511e63eb, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
   mPixelSize: 1

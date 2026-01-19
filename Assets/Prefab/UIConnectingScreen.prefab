@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1782266953742715}
+  m_RootGameObject: {fileID: 1516252138059270}
   m_IsPrefabParent: 1
---- !u!1 &1782266953742715
+--- !u!1 &1516252138059270
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4501789103164482}
-  - 114: {fileID: 114137303597666277}
+  - 4: {fileID: 4665763962516775}
+  - 114: {fileID: 114353072666989086}
   m_Layer: 5
   m_Name: UIConnectingScreen
   m_TagString: Untagged
@@ -27,26 +27,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4501789103164482
+--- !u!4 &4665763962516775
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1782266953742715}
+  m_GameObject: {fileID: 1516252138059270}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 4974693320383336}
+  - {fileID: 4007181844288669}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114137303597666277
+--- !u!114 &114353072666989086
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1782266953742715}
+  m_GameObject: {fileID: 1516252138059270}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0110146dbab87410eb62d6f3e8233d7d, type: 3}
@@ -78,15 +78,15 @@ MonoBehaviour:
   hideIfOffScreen: 0
   keepAspectRatio: 0
   aspectRatio: 1.9311043
---- !u!1 &1348768205121373
+--- !u!1 &1905593887477958
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4974693320383336}
-  - 114: {fileID: 114305316554610819}
+  - 4: {fileID: 4007181844288669}
+  - 114: {fileID: 114094158502169064}
   m_Layer: 5
   m_Name: LoadingLabel
   m_TagString: Untagged
@@ -94,44 +94,44 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4974693320383336
+--- !u!4 &4007181844288669
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1348768205121373}
+  m_GameObject: {fileID: 1905593887477958}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 863, y: 433, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
   m_Children: []
-  m_Father: {fileID: 4501789103164482}
+  m_Father: {fileID: 4665763962516775}
   m_RootOrder: 0
---- !u!114 &114305316554610819
+--- !u!114 &114094158502169064
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1348768205121373}
+  m_GameObject: {fileID: 1905593887477958}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   leftAnchor:
-    target: {fileID: 4501789103164482}
+    target: {fileID: 4665763962516775}
     relative: 1
     absolute: -483
   rightAnchor:
-    target: {fileID: 4501789103164482}
+    target: {fileID: 4665763962516775}
     relative: 1
     absolute: -30
   bottomAnchor:
-    target: {fileID: 4501789103164482}
+    target: {fileID: 4665763962516775}
     relative: 1
     absolute: -109
   topAnchor:
-    target: {fileID: 4501789103164482}
+    target: {fileID: 4665763962516775}
     relative: 1
     absolute: -30
   updateAnchors: 1
@@ -145,7 +145,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 5.734177
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 20a22721e86bcdc448ecfd5dd28ddbc6, type: 3}
+  mTrueTypeFont: {fileID: 12800000, guid: 88fd832b07d5bca4bb65c3633abf00fb, type: 3}
   mFont: {fileID: 0}
   mText: Reconnecting...
   mFontSize: 45

@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1564574981380244}
+  m_RootGameObject: {fileID: 1108507483176306}
   m_IsPrefabParent: 1
---- !u!1 &1564574981380244
+--- !u!1 &1108507483176306
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4012458689633123}
-  - 114: {fileID: 114276073050273346}
-  - 114: {fileID: 114926222987763600}
+  - 4: {fileID: 4614330234954068}
+  - 114: {fileID: 114509646931657907}
+  - 114: {fileID: 114401466951861893}
   m_Layer: 5
   m_Name: UIWhiteMistScreen
   m_TagString: Untagged
@@ -28,26 +28,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4012458689633123
+--- !u!4 &4614330234954068
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1564574981380244}
+  m_GameObject: {fileID: 1108507483176306}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
   m_Children:
-  - {fileID: 4523250029562387}
+  - {fileID: 4406600073856557}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114276073050273346
+--- !u!114 &114509646931657907
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1564574981380244}
+  m_GameObject: {fileID: 1108507483176306}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e7c3bff608434c7f74859fbc7af5fe1, type: 3}
@@ -88,27 +88,27 @@ MonoBehaviour:
   mSortingOrder: 0
   mSortingLayerName:
   mClipOffset: {x: 0, y: 0}
---- !u!114 &114926222987763600
+--- !u!114 &114401466951861893
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1564574981380244}
+  m_GameObject: {fileID: 1108507483176306}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e520df4100dbffe6d27615e5f1add3d3, type: 3}
   m_Name:
   m_EditorClassIdentifier:
-  widget: {fileID: 114703628879446046}
---- !u!1 &1471162246176108
+  widget: {fileID: 114377064037254327}
+--- !u!1 &1410169361454272
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4523250029562387}
-  - 114: {fileID: 114703628879446046}
+  - 4: {fileID: 4406600073856557}
+  - 114: {fileID: 114377064037254327}
   m_Layer: 5
   m_Name: Widget
   m_TagString: Untagged
@@ -116,25 +116,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4523250029562387
+--- !u!4 &4406600073856557
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1471162246176108}
+  m_GameObject: {fileID: 1410169361454272}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
   m_Children: []
-  m_Father: {fileID: 4012458689633123}
+  m_Father: {fileID: 4614330234954068}
   m_RootOrder: 0
---- !u!114 &114703628879446046
+--- !u!114 &114377064037254327
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1471162246176108}
+  m_GameObject: {fileID: 1410169361454272}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0325460231a819450b692114b788c16e, type: 3}
@@ -179,9 +179,9 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mSprite: {fileID: 21300000, guid: 6e6c0cecc5fd5cb4a920ef942032b028, type: 2}
+  mSprite: {fileID: 21300000, guid: f1788342ab71e3d418feda2723a21dc2, type: 2}
   mMat: {fileID: 0}
-  mShader: {fileID: 4800000, guid: ddc63cf7510399045a614e053900169a, type: 3}
+  mShader: {fileID: 4800000, guid: 17cc80fa7d1180945b630256511e63eb, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}
   mFixedAspect: 0
   mPixelSize: 1

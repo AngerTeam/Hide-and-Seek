@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1256506796684429}
+  m_RootGameObject: {fileID: 1114562399702417}
   m_IsPrefabParent: 1
---- !u!1 &1256506796684429
+--- !u!1 &1114562399702417
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4103843062739208}
-  - 114: {fileID: 114851823419112416}
-  - 114: {fileID: 114431217123745003}
+  - 4: {fileID: 4400537447758535}
+  - 114: {fileID: 114896836970547304}
+  - 114: {fileID: 114790858593825339}
   m_Layer: 5
   m_Name: UIProgressBar
   m_TagString: Untagged
@@ -28,26 +28,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4103843062739208
+--- !u!4 &4400537447758535
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1256506796684429}
+  m_GameObject: {fileID: 1114562399702417}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 4140638926298045}
+  - {fileID: 4682260812978379}
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114851823419112416
+--- !u!114 &114896836970547304
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1256506796684429}
+  m_GameObject: {fileID: 1114562399702417}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
@@ -92,36 +92,36 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 114568271153408558, guid: 95be4ed1de56a034f9a74ab2f889d98e, type: 2}
+  mAtlas: {fileID: 114047731862768741, guid: 1f4e5689cf69d6946be3adcd591c5e06, type: 2}
   mSpriteName: win_slot_border_9s
   mFillCenter: 1
---- !u!114 &114431217123745003
+--- !u!114 &114790858593825339
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1256506796684429}
+  m_GameObject: {fileID: 1114562399702417}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f9592b2f019f0ef8b6314d7defd88ed, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   thumb: {fileID: 0}
-  mBG: {fileID: 114851823419112416}
-  mFG: {fileID: 114205305115783584}
+  mBG: {fileID: 114896836970547304}
+  mFG: {fileID: 114807775718642666}
   mValue: 0.402
   mFill: 0
   numberOfSteps: 0
   onChange: []
---- !u!1 &1811211417066202
+--- !u!1 &1669059027517813
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4140638926298045}
-  - 114: {fileID: 114205305115783584}
+  - 4: {fileID: 4682260812978379}
+  - 114: {fileID: 114807775718642666}
   m_Layer: 5
   m_Name: Progress
   m_TagString: Untagged
@@ -129,44 +129,44 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4140638926298045
+--- !u!4 &4682260812978379
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1811211417066202}
+  m_GameObject: {fileID: 1669059027517813}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
   m_Children: []
-  m_Father: {fileID: 4103843062739208}
+  m_Father: {fileID: 4400537447758535}
   m_RootOrder: 0
---- !u!114 &114205305115783584
+--- !u!114 &114807775718642666
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1811211417066202}
+  m_GameObject: {fileID: 1669059027517813}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   leftAnchor:
-    target: {fileID: 4103843062739208}
+    target: {fileID: 4400537447758535}
     relative: 0
     absolute: 1
   rightAnchor:
-    target: {fileID: 4103843062739208}
+    target: {fileID: 4400537447758535}
     relative: 1
     absolute: -1
   bottomAnchor:
-    target: {fileID: 4103843062739208}
+    target: {fileID: 4400537447758535}
     relative: 0
     absolute: 1
   topAnchor:
-    target: {fileID: 4103843062739208}
+    target: {fileID: 4400537447758535}
     relative: 1
     absolute: -1
   updateAnchors: 1
@@ -192,6 +192,6 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 114568271153408558, guid: 95be4ed1de56a034f9a74ab2f889d98e, type: 2}
+  mAtlas: {fileID: 114047731862768741, guid: 1f4e5689cf69d6946be3adcd591c5e06, type: 2}
   mSpriteName: list_bar_bkg
   mFillCenter: 1
