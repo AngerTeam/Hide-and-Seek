@@ -104,6 +104,7 @@ namespace CraftyEngine.Infrastructure.FileSystem
 					base.ErrorMessage = www.error;
 					if (!silent)
 					{
+						Debug.LogError(www.url);
 						Exc.Report(3110, base.Address, www.error);
 					}
 				}

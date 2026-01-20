@@ -58,6 +58,7 @@ namespace HttpNetwork
 				{
 					if (!silent)
 					{
+						Debug.LogError(www.url);
 						Exc.Report(3111, url_, www.error);
 					}
 					if (!string.IsNullOrEmpty(CreateCallStack))

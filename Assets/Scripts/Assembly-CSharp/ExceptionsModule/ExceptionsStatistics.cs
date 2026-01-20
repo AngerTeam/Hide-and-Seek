@@ -7,7 +7,7 @@ namespace ExceptionsModule
 {
 	public class ExceptionsStatistics : Singleton
 	{
-		public static string hostingUrl = "http://deploy.hidenseek.online/public/";
+		public static string hostingUrl = "https://deploy.hns.pixelgun.plus/public/";
 
 		private static readonly string relativePath = "crash_report.php";
 

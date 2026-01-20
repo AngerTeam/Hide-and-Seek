@@ -53,7 +53,7 @@ namespace Authorization
 			SingletonManager.Get<ExceptionsManager>(out exceptionsManager_);
 			tries_ = 0;
 			exceptionsManager_.AddHandler(HandleErrored, 600, 601, 602, 1000, 1001);
-			authModel_.authServerUrl = "http://hidenseek.online/auth/";
+			authModel_.authServerUrl = "https://hns.pixelgun.plus/auth/";
 			string typeName = "PersistanceUserData.cfg";
 			if (PersistanceManager.Exists<AuthorizationData>(typeName))
 			{

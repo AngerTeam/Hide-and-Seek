@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class LogReporter
 {
-	public static string hostingUrl = "http://deploy.hidenseek.online/public/";
+	public static string hostingUrl = "https://deploy.hns.pixelgun.plus/public/";
 
 	private static readonly int maxLogSize = 3145728;
 

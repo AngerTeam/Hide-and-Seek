@@ -56,7 +56,7 @@ public class ExporterWindow : GameWindow
 		if (currentSkin_ != null)
 		{
 			string text = "https://minecraft.net/en-us/profile/skin/remote?url=";
-			string text2 = "http://deploy.hidenseek.online/public/" + currentSkin_.entry.skinData.GetFullPicturePath();
+			string text2 = "https://deploy.hns.pixelgun.plus/public/" + currentSkin_.entry.skinData.GetFullPicturePath();
 			text += text2;
 			WebViewHandler webViewHandler = SingletonManager.Get<WebViewHandler>();
 			webViewHandler.OpenURL(text);

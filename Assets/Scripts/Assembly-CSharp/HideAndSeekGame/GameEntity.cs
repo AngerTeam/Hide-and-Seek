@@ -136,7 +136,7 @@ namespace HideAndSeekGame
 
 		public GameEntity()
 		{
-			CraftyEngineModuleController.defaultHosting = "http://deploy.hidenseek.online/public/";
+			CraftyEngineModuleController.defaultHosting = "https://deploy.hns.pixelgun.plus/public/";
 			SplashScreenManager.defaultSplashScreen = "UIHnsSplashScreen";
 			SingletonManager.Init(5);
 			infrastructureContoller_ = new InfrastructureContoller();
